@@ -58,6 +58,11 @@ echo
 sleep 2
 
 yum clean all
+
+sudo amazon-linux-extras install epel -y
+sleep 3
+
+
 yum install jenkins -y
 echo "Start jenkins services"
 sleep 3
